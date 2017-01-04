@@ -1,0 +1,618 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  font: normal 14px Courier, monospace;
+  color: #fff;
+  background: #EA0037;  
+}
+label {
+    text-align: left;
+}
+.account{
+    background-color: #EA0037;
+}
+.address h2 {
+    padding: 0;
+}
+.answer-choices {
+    text-align: left;
+    margin: auto;
+    width: 140px;
+}
+.assessment{
+    background-color: #FF7F00;
+}
+.questions{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.descriptors{
+    background-color: #00AF64;
+}
+.title{
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+.login{
+    text-align: center;
+}
+.nav{
+    color:#fff;
+    border: none;
+}
+.nav li {
+    padding-right: 5px;
+}
+.big-txt{
+    color: #FFF;
+    font-size: 30px;
+}
+.lgnsgn{
+    background-color:#00AF64;
+    text-align:center;
+    color:#FFF;
+    height: 400px;
+}
+.logout-btn{
+    background-color: #8C6DD7;
+    color:#fff;
+    text-align: right;
+
+}
+.form-login{
+    background-color: #00AF64;
+}
+.login-bg{
+    background-color: #EA0037;
+}
+.dscrpt-bg{
+    background-color: #EA0037;
+}
+.green{
+    color:#FFF;
+    background-color: #00AF64;
+}
+
+.red{
+    color:#FFF;
+    background-color: #EA0037;
+}
+.blue{
+    color:#FFF;
+    background-color: #0E5387;
+}
+.orange{
+    color:#FFF;
+    background-color: #FF7F00;
+}
+.purple{
+    color:#FFF;
+    background-color: #8C6DD7;
+}
+.asnxtbtln{
+    color: #fff;
+    background-color: #8C6DD7;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.radiobox{
+    margin-bottom: 300px;
+}
+.assbckbtn{
+    color: #fff;
+    background-color: #8C6DD7;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.space{
+    height:200px;
+}
+.space-top{
+    height: 90px;  
+}
+.assctnr{
+    background-color: #fff;
+    width: 450px;
+    height: 50px;
+    border-radius: 6px;
+    border:none;
+    margin-bottom: 200px;
+    margin-top:;
+}
+.dscrptbx{
+    background-color: #FF7F00;
+    width: 600px;
+    height: 200px;
+    border-radius: 6px;
+    border:none;
+    margin: auto;
+    padding-bottom: 100px;
+    text-align: left;
+}
+.dscrptbx-content {
+    width: 200px;
+    border; 1px solid;
+    margin: auto;
+    padding-top: 20px;
+
+}
+.accbtn{
+    color:#fff;
+    background-color: #8C6DD7;
+}
+.dscrptbtns{
+    font-size: 30px;
+}
+.editinfo {
+    background: #FF7F00;
+}
+.rating {
+    background: #d43f3a;
+}
+.rating-img {
+    margin: auto;
+    display: block;
+}
+.radiobtns{
+    margin-right:20px;
+    margin-top:5px;   
+}
+.nv-acc{
+    color:#fff;
+    background-color: #00AF64;
+}
+
+.nv-ab{
+    color:#fff;
+    background-color: #00AF64;
+}
+.nv-ct{
+    color:#fff;
+    background-color: #FF7F00;
+}
+.nv-lo{
+    color:#fff;
+    background-color: #8C6DD7;
+}
+.accbtn{
+    color:#fff;
+    background-color: #8C6DD7;
+}
+
+.crtnwbtn{
+    color:#FFF;
+
+}
+
+.form-login {
+    background-color: #00AF64;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+    height: 300px;
+}
+
+h4 { 
+ border:0 solid #fff; 
+ border-bottom-width:1px;
+ padding-bottom:10px;
+ text-align: center;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.assess-button{
+    color:#fff;
+    background-color: #0E5387;
+    font-size: 30px;
+    border:none;
+}
+.usr-info-button{
+    color: #fff;
+    background-color:  #FF7F00;
+    font-size: 30px;
+    border:none;
+}
+.recource-button{
+    color: #fff;
+    background-color: #00AF64;
+    font-size: 30px;
+    border:none;
+}
+.report-button{
+    color: #fff;
+    background-color: #8C6DD7;
+    font-size: 30px;
+    border:none;
+}
+
+ .animated {
+    -webkit-transition: height 0.2s;
+    -moz-transition: height 0.2s;
+    transition: height 0.2s;
+}
+
+.subbtn{
+    color: #fff;
+    background-color:  #FF7F00;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    border:none;
+}
+.panel-heading{
+    font-size: 30px;
+}
+.ftrbtn{
+    text-decoration: underline;
+    color: #fff;
+}
+
+@import "compass/css3";
+
+$height: 200px;
+
+body {
+  background-color: #ccc;
+}
+
+.thermometer {
+  border-radius: 50px;
+  width: $height / 10;
+  height: $height;
+}
+
+#glass {
+  border: 4px solid;
+  border-top-color: rgba(0,0,0,0.4);
+  border-right-color: rgba(0,0,0,0.3);
+  border-bottom-color: rgba(0,0,0,0.3);
+  border-left-color: rgba(0,0,0,0.5);
+  margin: 20px auto;
+  position: relative;
+}
+
+#mercury {
+  position: absolute;
+  bottom: 0;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+#markings {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  position: absolute;
+  top: -(($height / 5) * 0.75);
+  right: 0;
+}
+
+#markings li {
+  padding: 0;
+  margin: 0;
+  height: ($height * 0.2);
+  width: (($height / 10) * 0.5);
+  border-bottom: 2px solid  rgba(255,255,255,0.7);
+}
+
+#markings li:after {
+  position: absolute;
+  margin-top: $height * 0.18;
+  margin-left: $height * 0.08;
+  width: 80px;
+  color: #333;
+}
+
+#markings li:first-child:after {
+  content: 'Excellent!';
+}
+
+#markings li:nth-child(2):after {
+  content: 'Good';
+}
+
+#markings li:nth-child(3):after {
+  content: 'Meh';
+}
+
+#markings li:nth-child(4):after {
+  content: 'Angry!';
+}
+
+#markings li:last-child:after {
+  content: 'iRate!';
+}
+
+.excellent, .good, .meh, .angry, .irate {
+  animation-timing-function: linear;  
+  animation-duration: 0.3s; 
+  animation-fill-mode: forwards;
+}
+
+.excellent {
+  animation-name: excellent;
+  background: -moz-linear-gradient(top,  #00ff3b 0%, #fff830 50%, #fc0000 100%);
+}
+
+@keyframes excellent {  
+  0% {  
+    height: 0;
+  }
+  80% {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+  100% {  
+    height: 100%;
+    background-color: green;
+    background: #00ff3b;
+    background: -moz-linear-gradient(top,  #00ff3b 0%, #fff830 50%, #fc0000 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00ff3b), color-stop(50%,#fff830), color-stop(100%,#fc0000));
+    background: -webkit-linear-gradient(top,  #00ff3b 0%,#fff830 50%,#fc0000 100%);
+    background: -o-linear-gradient(top,  #00ff3b 0%,#fff830 50%,#fc0000 100%);
+    background: -ms-linear-gradient(top,  #00ff3b 0%,#fff830 50%,#fc0000 100%);
+    background: linear-gradient(to bottom,  #00ff3b 0%,#fff830 50%,#fc0000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff3b', endColorstr='#fc0000',GradientType=0 );
+
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+  }  
+}
+
+.good {
+  animation-name: good;
+  background: -moz-linear-gradient(top,  #63ff00 0%, #fff830 41%, #fc0000 100%);
+}
+
+@keyframes good {  
+  from {  
+    height: 0;
+  }  
+  to {  
+    height: ($height / 5) * 3.7;
+    background-color: limegreen;
+    background: #63ff00;
+    background: -moz-linear-gradient(top,  #63ff00 0%, #fff830 41%, #fc0000 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#63ff00), color-stop(41%,#fff830), color-stop(100%,#fc0000));
+    background: -webkit-linear-gradient(top,  #63ff00 0%,#fff830 41%,#fc0000 100%);
+    background: -o-linear-gradient(top,  #63ff00 0%,#fff830 41%,#fc0000 100%);
+    background: -ms-linear-gradient(top,  #63ff00 0%,#fff830 41%,#fc0000 100%);
+    background: linear-gradient(to bottom,  #63ff00 0%,#fff830 41%,#fc0000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63ff00', endColorstr='#fc0000',GradientType=0 );
+  }  
+}
+
+.meh {
+  animation-name: meh;
+  background: -moz-linear-gradient(top,  #fff830 0%, #fff830 28%, #fc0000 100%);
+}
+
+@keyframes meh {  
+  from {  
+    height: 0;
+  }  
+  to {  
+    height: ($height / 5) * 2.7;
+    background-color: yellow;
+    background: #fff830;
+    background: -moz-linear-gradient(top,  #fff830 0%, #fff830 28%, #fc0000 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff830), color-stop(28%,#fff830), color-stop(100%,#fc0000));
+    background: -webkit-linear-gradient(top,  #fff830 0%,#fff830 28%,#fc0000 100%);
+    background: -o-linear-gradient(top,  #fff830 0%,#fff830 28%,#fc0000 100%);
+    background: -ms-linear-gradient(top,  #fff830 0%,#fff830 28%,#fc0000 100%);
+    background: linear-gradient(to bottom,  #fff830 0%,#fff830 28%,#fc0000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff830', endColorstr='#fc0000',GradientType=0 );
+  }  
+}
+
+.angry {
+  animation-name: angry;
+  background: -moz-linear-gradient(top,  #fcc40c 0%, #fc0000 100%);
+}
+
+@keyframes angry {  
+  from {  
+    height: 0;
+  }  
+  to {  
+    height: ($height / 5) * 1.7;
+    background-color: orange;
+    background: #fcc40c;
+    background: -moz-linear-gradient(top,  #fcc40c 0%, #fc0000 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcc40c), color-stop(100%,#fc0000));
+    background: -webkit-linear-gradient(top,  #fcc40c 0%,#fc0000 100%);
+    background: -o-linear-gradient(top,  #fcc40c 0%,#fc0000 100%);
+    background: -ms-linear-gradient(top,  #fcc40c 0%,#fc0000 100%);
+    background: linear-gradient(to bottom,  #fcc40c 0%,#fc0000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcc40c', endColorstr='#fc0000',GradientType=0 );
+  }  
+}
+
+.irate {
+  animation-name: irate;
+  background: -moz-linear-gradient(top,  #ff5000 0%, #fc0000 100%);
+}
+
+@keyframes irate {  
+  from {  
+    height: 0;
+  }  
+  to {  
+    height: ($height / 5) * 0.6;
+    background-color: red;
+    background: #ff5000;
+    background: -moz-linear-gradient(top,  #ff5000 0%, #fc0000 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff5000), color-stop(100%,#fc0000));
+    background: -webkit-linear-gradient(top,  #ff5000 0%,#fc0000 100%);
+    background: -o-linear-gradient(top,  #ff5000 0%,#fc0000 100%);
+    background: -ms-linear-gradient(top,  #ff5000 0%,#fc0000 100%);
+    background: linear-gradient(to bottom,  #ff5000 0%,#fc0000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5000', endColorstr='#fc0000',GradientType=0 );
+  }  
+}
+ 
+ #social-fb:hover {
+     color: #fff;
+ }
+ #social-tw:hover {
+     color: #fff;
+ }
+ #social-gp:hover {
+     color: #fff;
+ }
+ #social-em:hover {
+     color: #fff;
+ }
+ .footer{
+    color: #fff;
+    height: 20px;
+    z-index: 9222;
+ }
+
+ body {padding-top:20px;}
+
+.glyphicon-lg{font-size:3em}
+.blockquote-box{border-right:5px solid #E6E6E6;margin-bottom:25px}
+.blockquote-box .square{width:100px;min-height:50px;margin-right:22px;text-align:center!important;background-color:#E6E6E6;padding:20px 0}
+.blockquote-box.blockquote-primary{border-color:#357EBD}
+.blockquote-box.blockquote-primary .square{background-color:#428BCA;color:#FFF}
+.blockquote-box.blockquote-success{border-color:#4CAE4C}
+.blockquote-box.blockquote-success .square{background-color:#5CB85C;color:#FFF}
+.blockquote-box.blockquote-info{border-color:#46B8DA}
+.blockquote-box.blockquote-info .square{background-color:#5BC0DE;color:#FFF}
+.blockquote-box.blockquote-warning{border-color:#EEA236}
+.blockquote-box.blockquote-warning .square{background-color:#F0AD4E;color:#FFF}
+.blockquote-box.blockquote-danger{border-color:#D43F3A}
+.blockquote-box.blockquote-danger .square{background-color:#D9534F;color:#FFF}
+
+/*!
+ * @copyright © Kartik Visweswaran, Krajee.com, 2014
+ * @version 2.5.0
+ *
+ * A simple yet powerful JQuery star rating plugin that allows rendering
+ * fractional star ratings and supports Right to Left (RTL) input.
+ *
+ * For more JQuery/Bootp plugins and demos visit http://plugins.krajee.com
+ * For more Yii related demos visit http://demos.krajee.com
+ */
+;
+}
+#content {
+    width:300px;
+    margin:30px auto;
+}
+
+#thermometer {
+    width:70px;
+    height:300px;
+    position: relative;
+    background: #ddd;
+    border:1px solid #aaa;
+    -webkit-border-radius: 12px;
+       -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+         -o-border-radius: 12px;
+            border-radius: 12px;
+
+    -webkit-box-shadow: 1px 1px 4px #999, 5px 0 20px #999;
+       -moz-box-shadow: 1px 1px 4px #999, 5px 0 20px #999;
+        -ms-box-shadow: 1px 1px 4px #999, 5px 0 20px #999;
+         -o-box-shadow: 1px 1px 4px #999, 5px 0 20px #999;
+            box-shadow: 1px 1px 4px #999, 5px 0 20px #999;
+}
+
+#thermometer .track {
+    height:280px;
+    top:10px;
+    width:20px;
+    border: 1px solid #aaa;
+    position: relative;
+    margin:0 auto;
+    background: rgb(255,255,255);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(0,0,0)), color-stop(1%,rgb(255,255,255)));
+    background: -webkit-linear-gradient(top, rgb(0,0,0) 0%,rgb(255,255,255) 10%);
+    background:      -o-linear-gradient(top, rgb(0,0,0) 0%,rgb(255,255,255) 10%);
+    background:     -ms-linear-gradient(top, rgb(0,0,0) 0%,rgb(255,255,255) 10%);
+    background:    -moz-linear-gradient(top, rgb(0,0,0) 0%,rgb(255,255,255) 10%);
+    background:   linear-gradient(to bottom, rgb(0,0,0) 0%,rgb(255,255,255) 10%);
+    background-position: 0 -1px;
+    background-size: 100% 5%;
+}
+
+#thermometer .progress {
+    height:0%;
+    width:100%;
+    background: rgb(20,100,20);
+    background: rgba(20,100,20,0.6);
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+
+#thermometer .goal {
+    position:absolute;
+    top:0;
+}
+
+#thermometer .amount {
+    display: inline-block;
+    padding:0 5px 0 60px;
+    border-top:1px solid black;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    color:#333;
+}
+
+#thermometer .progress .amount {
+    padding:0 60px 0 5px;
+    position: absolute;
+    border-top:1px solid #060;
+    color:#060;
+    right:0;
+}
+
+@media (max-width: @screen-xs-max) { ... }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }
+
+
+/* Extra Styles */
+.account-content {
+
+}
+.button-div {
+    margin-top: 20px;
+}
+.content {
+    margin: 0 auto 20px;
+    background: #ffffff;
+    color: #333;    
+    float: none;
+    width: 60%;    
+    border-radius: 5px;
+    padding: 10px;
+}
+.dscrpt {
+    margin: 0 auto 20px;
+    background: #ffffff;
+    color: #333;    
+    float: none;
+    width: %;    
+    border-radius: 6px;
+    padding: 10px;
+}
